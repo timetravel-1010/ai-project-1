@@ -1,0 +1,28 @@
+﻿============ Dependencias ===================================
+
+Para instalar las dependencias necesarias utilizar el comando:
+
+pip install -r requirements
+
+============ Ejecución ======================================
+
+Una vez instaladas las dependencias se puede ejecutar el programa 
+con el comando:
+
+python menu.py
+
+El cual despliega un primer menú inicial en el que se puede elegir el tipo de algoritmo de
+búsqueda y posteriormente especificar cuál utilizar.
+
+También se puede ejecutar el programa sin el menú inicial ejecutando el comando:
+
+python game.py
+
+En este último caso se debe especificar manualmente cuál algoritmo quiere
+utilizar ("amplitud", "costo", "profundidad", "avara", "estrella") en la
+línea 168 del archivo game.py
+
+============= Mundos =========================================
+
+Para cambiar el mundo se debe reemplazar manualmente el contenido del archivo mundo.txt 
+ubicado en la carpeta mundos o en su defecto reemplazar dicho archivo.
